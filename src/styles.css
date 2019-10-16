@@ -1,1 +1,175 @@
 /* You can add global styles to this file, and also import other style files */
+/* You can add global styles to this file, and also import other style files */
+/* @import "~@angular/material/prebuilt-themes/indigo-pink.css"; */
+
+.uxt-header-global-headingContainer {
+    margin: 0 auto;
+    
+        /* position: absolute;
+        left: 50%;
+        margin-left: -25px;   */
+    }
+    
+    .uxt-header-global-heading {
+        font-size: 24px;
+    }
+
+    
+
+h1 { 
+    display: block;
+    font-family: "Proxima Nova";
+    font-size: 2em;
+    margin-top: 0.67em;
+    margin-bottom: 0.67em;
+    margin-left: 0;
+    margin-right: 0;
+    font-weight: bold;
+  }
+
+  h2 {
+    display: block;
+    font-family: "Proxima Nova";
+    font-size: 1.5em;
+    margin-top: 0.83em;
+    margin-bottom: 0.83em;
+    margin-left: 0;
+    margin-right: 0;
+    font-weight: bold;
+  }
+
+  h3 { 
+    display: block;
+    font-family: "Proxima Nova";
+    font-size: 1.17em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-left: 0;
+    margin-right: 0;
+    font-weight: bold;
+  }
+
+  h4 { 
+    display: block;
+    font-family: "Proxima Nova";
+    font-size: 1em;
+    margin-top: 1.33em;
+    margin-bottom: 1.33em;
+    margin-left: 0;
+    margin-right: 0;
+    font-weight: bold;
+  }
+
+  h5 { 
+    display: block;
+    font-family: "Proxima Nova";
+    font-size: .83em;
+    margin-top: 1.67em;
+    margin-bottom: 1.67em;
+    margin-left: 0;
+    margin-right: 0;
+    font-weight: bold;
+  }
+
+  h6 { 
+    display: block;
+    font-family: "Proxima Nova";
+    font-size: .67em;
+    margin-top: 2.33em;
+    margin-bottom: 2.33em;
+    margin-left: 0;
+    margin-right: 0;
+    font-weight: bold;
+  }
+
+  body {
+    font-family: "Proxima Nova";
+  }
+
+  button {
+    font-family: "Proxima Nova";
+  }
+
+  .uxt-footer{
+    bottom: 0;
+    position: absolute;
+    width: 100%;
+}
+
+.uxt-footer a{
+    color: #101820 !important;
+    text-decoration: none !important;
+}
+
+.uxt-footer-global {
+    background-color: #f4d3c1;
+    height: 50px;
+    padding: 16px 0;
+    font-family: "D Sari Bold", Arial, sans-serif;
+    font-size:  16px;
+    font-weight: 700;
+    /* color: $uxtInternetBlack !important; */
+    text-decoration: none !important;
+}
+
+.uxt-footer-global-heading{
+    padding: 16px 0 16px 20px;
+}
+
+.uxt-footer-universal img{
+    height: 90%;
+    padding: 5px 10px 0 20px;
+}
+
+
+
+.uxt-footer-universal {
+    background-color: #101820;
+    height: 40px;
+    font-family: "D Sari Bold", Arial, sans-serif;
+    
+}
+
+.loading{
+  color: white;
+  padding-top: 50px;
+}
+
+
+button{
+  width: 150px;
+  height: 50px;
+  border-radius: 4px;
+  background-color: #002D72;
+  color: #ffffff;
+  font-family: "proxima-nova";
+
+}
+
+@media (max-width: 599px){
+
+  .mat-tab-label {
+    min-width: 72px;
+    width: 50%;
+}
+
+
+.mat-toolbar{
+  background: none;
+}
+}
+
+
+
+.margin{
+
+    padding: 10% 10px;
+}
+
+.jumbotron{
+    background: none;
+}
+
+h1{
+    font-size: 1.2em;
+}

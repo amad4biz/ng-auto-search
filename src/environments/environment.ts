@@ -3,7 +3,9 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
-  production: false
+  production: false,
+  Username: "srvITSM_ars_api",
+  Password: "b_tYq$D3yxWzY86r",
 };
 
 /*
