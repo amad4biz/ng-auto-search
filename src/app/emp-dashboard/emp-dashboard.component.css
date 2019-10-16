@@ -1,0 +1,13 @@
+button{width: 227px;
+    height: 61px;
+    fill: #63666a;
+    /* Custom CSS */
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    border-bottom-left-radius: 8px;
+margin: 20px}
+
+.padding-top{
+    margin-top: 10px;
+}

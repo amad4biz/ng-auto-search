@@ -1,0 +1,42 @@
+
+
+
+<div class="jumbotron jumbotron-fluid">
+        <div class="container">
+          <div class="container margin">
+              <h1 class="">Search Employee</h1>
+           
+     
+<div class="input-group mb-3">
+
+    <div class="input-group mb-3">
+            <input type="text" class="form-control"
+            (input)="searchPosts($event.target.value)"
+             placeholder="Search" aria-label="Recipient's username" aria-describedby="basic-addon2">
+            <div class="input-group-append">
+              <span class="input-group-text" id="basic-addon2">Go</span>
+            </div>
+          </div>
+
+
+
+            <!-- <input 
+                type="number" 
+                placeholder="enter user id..."
+                (input)="searchPosts($event.target.value)"
+                > -->
+
+            <ng-container *ngIf="(blogPosts$ | async) as blogPosts">
+            <!-- <p>User posts titles:</p> -->
+            <ul>
+                <li *ngFor="let blogPost of blogPosts" (click)="viewDetail(blogPost)">
+                        <!-- {{blogPost.id}}--{{blogPost.title}} -->
+                        {{blogPost.id}}--{{blogPost.name}}
+                </li>
+            </ul>
+            </ng-container>
+  </div>
+
+</div>
+</div>
+</div>

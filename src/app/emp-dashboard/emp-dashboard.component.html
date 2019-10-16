@@ -1,0 +1,55 @@
+
+<div class="container">
+
+    <div class="row padding-top">
+        <div class="col-6 col-md-8">
+            <h2>
+                Sandra Mckonkey
+            </h2>
+        </div>
+    </div>
+    <div class="row">
+
+        <div class="col-6 col-md-4">
+
+            <button>
+                Unlock Ad Account
+            </button>
+
+            <button>
+                Restore Deprovisioned Mailbox
+            </button>
+
+            <button>
+                Reset Password
+            </button>
+        </div>
+        <div class="col-12 col-md-8"><table class="table">
+                <thead>
+                  <tr>
+                    <!-- <th scope="col">#</th> -->
+                    <th scope="col">Device Type</th>
+                    <th scope="col">Make/Model</th>
+                    <!-- <th scope="col">ID tag</th> -->
+                    <th scope="col">Edit</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr *ngFor="let asset of assets?.result">
+                    <!-- <th scope="row">{{asset?.id}}</th> -->
+                    <td *ngIf="asset.name">{{asset?.name}}</td>
+                     <td *ngIf="asset.model_category">{{asset.model_category}}</td>
+                    <td>
+                        
+                        <!-- <button type="button" class="btn btn-brand btn-behance">
+                            <i class="fa fa-behance"></i>
+                          </button></td> -->
+                  </tr> 
+        
+                </tbody>
+              </table>
+           
+        </div>
+    </div>
+
+</div>
