@@ -20,6 +20,7 @@ export class SearchComponent implements OnInit {
   //   switchMap(userId => this.apiService.fetchPosts(userId))
   // );
 
+  users: any[] = []
 
 
   
@@ -41,8 +42,19 @@ export class SearchComponent implements OnInit {
   }
 
 viewDetail(blogPost){
-  console.log(blogPost)
-  this.route.navigate(['emp-dash', blogPost.id])
+ 
+    
+   if(this.users.includes(blogPost)){
+
+   
+     console.log('exist')
+     blogPost.id=+1
+   }else{
+    this.users.push(blogPost)
+   }
+  
+  console.log(this.users)
+ // this.route.navigate(['emp-dash', blogPost.id])
 }
 
 }

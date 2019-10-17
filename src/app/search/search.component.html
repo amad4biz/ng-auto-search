@@ -35,8 +35,16 @@
                 </li>
             </ul>
             </ng-container>
-  </div>
 
+         
+  </div>
+  <div  *ngFor="let user of users">
+              
+      <p>
+         {{user.name}} - {{user.email}}
+      </p> 
+
+     </div>
 </div>
 </div>
 </div>
