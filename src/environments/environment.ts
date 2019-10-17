@@ -4,8 +4,8 @@
 
 export const environment = {
   production: false,
-  Username: "srvITSM_ars_api",
-  Password: "b_tYq$D3yxWzY86r",
+  Username: "",
+  Password: "",
 };
 
 /*

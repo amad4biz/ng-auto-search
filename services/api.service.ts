@@ -27,7 +27,7 @@ export class ApiService {
 
  private apiUrl = 'https://jsonplaceholder.typicode.com';
  
- assetsUrl: string = "https://devnysitsm.service-now.com/api/nysi2/user_information/upn?";
+ 
 
   constructor(private http: HttpClient) { }
 
@@ -65,7 +65,7 @@ export class ApiService {
       
     }
 
-    return this.http.get(this.assetsUrl, options)
+    return this.http.get(this.apiUrl, options)
 
   }
 

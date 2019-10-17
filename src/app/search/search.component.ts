@@ -48,7 +48,7 @@ viewDetail(blogPost){
 
    
      console.log('exist')
-     blogPost.id=+1
+     //blogPost.id=+1
    }else{
     this.users.push(blogPost)
    }
