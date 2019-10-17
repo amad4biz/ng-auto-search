@@ -40,7 +40,7 @@ export class EmpDashboardComponent implements OnInit {
   getUserAssets(){
 
     console.log("user is", this.user)
-    let email = "thierno.diallo@its.ny.gov"
+    let email = ""
     this.apiService.getUserAssets(email).subscribe((data)=>{
 
       this.assets = data;
